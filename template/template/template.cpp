@@ -84,6 +84,7 @@ int main()
 	type<etype::tstring> name = "Fernando";
 	type<etype::tdouble> height = 1.66;
 
+	age.increase(1);
 	std::cout << age.str() << "-"<< age.ctype() << std::endl;
 	std::cout << name.str() << "-" << name.ctype() << std::endl;
 	std::cout << height.round() << "-" << height.truncate() << std::endl;
@@ -93,4 +94,3 @@ int main()
 
 	return 0;
 }
-
